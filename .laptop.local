@@ -4,7 +4,6 @@ brew bundle --file=- <<EOF
 # brew "Caskroom/cask/dockertoolbox"
 # brew "go"
 # brew "ngrok"
-cask "
 brew "watch"
 brew "mc"
 cask "visual-studio-code"
