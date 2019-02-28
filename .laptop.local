@@ -3,6 +3,8 @@
 brew update
 
 brew bundle --file=- <<EOF
+cask "virtualbox"
+cask "docker-toolbox"
 # brew "Caskroom/cask/dockertoolbox"
 # brew "go"
 # brew "ngrok"
@@ -11,9 +13,9 @@ brew "mc"
 # Cask
 cask "visual-studio-code"
 cask "iterm2"
-cask "virtualbox"
 cask "mountain-duck"
-cask "docker-toolbox"
+cask "slack"
+cask "cerebro"
 EOF
 
 # default_docker_machine() {
