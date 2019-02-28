@@ -1,13 +1,15 @@
 #!/bin/sh
 
 brew bundle --file=- <<EOF
-brew "Caskroom/cask/dockertoolbox"
+# brew "Caskroom/cask/dockertoolbox"
 # brew "go"
-brew "ngrok"
+# brew "ngrok"
+cask "
 brew "watch"
 brew "mc"
 cask "visual-studio-code"
 cask "iterm2"
+cask "docker-toolbox"
 EOF
 
 # default_docker_machine() {
@@ -26,7 +28,7 @@ EOF
 #   docker-machine start default
 # fi
 
-fancy_echo "Cleaning up old Homebrew formulae ..."
+echo "Cleaning up old Homebrew formulae ..."
 brew cleanup
 brew cask cleanup
 
