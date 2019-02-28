@@ -9,8 +9,8 @@ brew "mc"
 # Cask
 cask "visual-studio-code"
 cask "iterm2"
-cask "docker-toolbox"
 cask "virtualbox"
+cask "docker-toolbox"
 EOF
 
 # default_docker_machine() {
