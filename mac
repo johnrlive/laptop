@@ -198,8 +198,8 @@ brew link --force heroku
 # bash "$HOME/.asdf/plugins/nodejs/bin/import-release-team-keyring"
 # install_asdf_language "nodejs"
 
-if [ -f "$HOME/.laptop.local" ]; then
-  fancy_echo "Running your customizations from ~/.laptop.local ..."
+if [ -f "$HOME/laptop/.laptop.local" ]; then
+  fancy_echo "Running your customizations from ~/laptop/.laptop.local ..."
   # shellcheck disable=SC1090
-  . "$HOME/.laptop.local"
+  . "$HOME/laptop/.laptop.local"
 fi
