@@ -32,13 +32,13 @@ EOF
 #   docker-machine start default
 # fi
 
-echo "Upgrade/Doctor For Brew and Cask"
+fancy_echo "Upgrade/Doctor For Brew and Cask"
 brew upgrade
 brew doctor
 brew cask upgrade
 brew cask doctor
 
-echo "Cleaning up old Homebrew formulae ..."
+fancy_echo "Cleaning up old Homebrew formulae ..."
 brew cleanup
 
 # if [ -r "$HOME/.rcrc" ]; then
