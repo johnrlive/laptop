@@ -10,6 +10,7 @@ brew "mc"
 cask "visual-studio-code"
 cask "iterm2"
 cask "virtualbox"
+cask "mountain-duck"
 cask "docker-toolbox"
 EOF
 
