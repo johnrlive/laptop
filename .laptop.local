@@ -6,9 +6,11 @@ brew bundle --file=- <<EOF
 # brew "ngrok"
 brew "watch"
 brew "mc"
+# Cask
 cask "visual-studio-code"
 cask "iterm2"
 cask "docker-toolbox"
+cask "virtualbox"
 EOF
 
 # default_docker_machine() {
