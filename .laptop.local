@@ -2,11 +2,10 @@
 
 brew bundle --file=- <<EOF
 brew "Caskroom/cask/dockertoolbox"
-brew "go"
+# brew "go"
 brew "ngrok"
-brew "watch"
+# brew "watch"
 brew "mc"
-brew "vim"
 EOF
 
 # default_docker_machine() {
