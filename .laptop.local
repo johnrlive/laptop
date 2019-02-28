@@ -4,8 +4,10 @@ brew bundle --file=- <<EOF
 brew "Caskroom/cask/dockertoolbox"
 # brew "go"
 brew "ngrok"
-# brew "watch"
+brew "watch"
 brew "mc"
+cask "visual-studio-code"
+cask "iterm2"
 EOF
 
 # default_docker_machine() {
