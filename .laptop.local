@@ -32,7 +32,11 @@ EOF
 
 echo "Cleaning up old Homebrew formulae ..."
 brew cleanup
-brew cask cleanup
+brew update
+brew upgrade
+brew doctor
+brew cask upgrade
+brew cask doctor
 
 # if [ -r "$HOME/.rcrc" ]; then
 #   fancy_echo "Updating dotfiles ..."
