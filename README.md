@@ -28,7 +28,7 @@ Install
 Download the script:
 
 ```sh
-curl --remote-name https://raw.githubusercontent.com/thoughtbot/laptop/master/mac
+curl --remote-name https://raw.githubusercontent.com/johnrlive/laptop/master/mac
 ```
 
 Review the script (avoid running scripts you haven't read!):
@@ -90,6 +90,7 @@ Unix tools:
 [Tmux]: http://tmux.github.io/
 [Watchman]: https://facebook.github.io/watchman/
 [Zsh]: http://www.zsh.org/
+[vim]: http://vim.org
 
 Heroku tools:
 
@@ -134,10 +135,10 @@ Databases:
 
 It should take less than 15 minutes to install (depends on your machine).
 
-Customize in `~/.laptop.local`
+Customize in `~/laptop/.laptop.local`
 ------------------------------
 
-Your `~/.laptop.local` is run at the end of the Laptop script.
+Your `~/laptop/.laptop.local` is run at the end of the Laptop script.
 Put your customizations there.
 For example:
 
@@ -182,7 +183,7 @@ See the `mac` script for examples.
 
 Laptop functions such as `fancy_echo` and
 `gem_install_or_update`
-can be used in your `~/.laptop.local`.
+can be used in your `~/laptop/.laptop.local`.
 
 See the [wiki](https://github.com/thoughtbot/laptop/wiki)
 for more customization examples.
