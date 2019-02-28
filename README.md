@@ -28,7 +28,8 @@ Install
 Download the script:
 
 ```sh
-curl --remote-name https://raw.githubusercontent.com/johnrlive/laptop/master/mac
+curl --remote-name https://raw.githubusercontent.com/johnrlive/laptop/master/mac && \
+curl --remote-name https://raw.githubusercontent.com/johnrlive/laptop/master/.laptop.local
 ```
 
 Review the script (avoid running scripts you haven't read!):
@@ -183,7 +184,7 @@ See the `mac` script for examples.
 
 Laptop functions such as `fancy_echo` and
 `gem_install_or_update`
-can be used in your `~/laptop/.laptop.local`.
+can be used in your `~/.laptop.local`.
 
 See the [wiki](https://github.com/thoughtbot/laptop/wiki)
 for more customization examples.
