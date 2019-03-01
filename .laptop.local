@@ -10,29 +10,33 @@ cask "docker-toolbox"
 # brew "ngrok"
 brew "watch"
 brew "mc"
-# Cask
+# Cask Apps
 cask "visual-studio-code"
 cask "iterm2"
 cask "mountain-duck"
 cask "slack"
 cask "cerebro"
+cask "keepassxc"
+cask "spectacle"
+cask "nvalt"
 EOF
 
-# default_docker_machine() {
-#   docker-machine ls | grep -Fq "default"
-# }
+# Docker Settings
+default_docker_machine() {
+  docker-machine ls | grep -Fq "default"
+}
 
-# if ! default_docker_machine; then
-#   docker-machine create --driver virtualbox default
-# fi
+if ! default_docker_machine; then
+  docker-machine create --driver virtualbox default
+fi
 
-# default_docker_machine_running() {
-#   default_docker_machine | grep -Fq "Running"
-# }
+default_docker_machine_running() {
+  default_docker_machine | grep -Fq "Running"
+}
 
-# if ! default_docker_machine_running; then
-#   docker-machine start default
-# fi
+if ! default_docker_machine_running; then
+  docker-machine start default
+fi
 
 fancy_echo "Upgrade/Doctor For Brew and Cask"
 brew upgrade
