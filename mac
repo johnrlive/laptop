@@ -179,7 +179,7 @@ add_or_update_asdf_plugin() {
   fi
 }
 
-shellcheck disable=SC1090
+# shellcheck disable=SC1090
 source "$HOME/.asdf/asdf.sh"
 add_or_update_asdf_plugin "ruby" "https://github.com/asdf-vm/asdf-ruby"
 add_or_update_asdf_plugin "nodejs" "https://github.com/asdf-vm/asdf-nodejs"
