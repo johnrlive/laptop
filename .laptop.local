@@ -18,7 +18,9 @@ cask "slack"
 cask "cerebro"
 cask "keepassxc"
 cask "spectacle"
+cask "clipy"
 cask "nvalt"
+cask "free-download-manager"
 EOF
 
 # Docker Settings
