@@ -148,6 +148,7 @@ brew "libxslt"
 brew "libtool"
 brew "unixodbc"
 brew "yarn"
+brew "shellcheck"
 cask "gpg-suite"
 
 # Databases
