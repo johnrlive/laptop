@@ -10,6 +10,7 @@ cask "docker-toolbox"
 # brew "ngrok"
 brew "watch"
 brew "mc"
+brew "zsh-completions"
 # Cask Apps
 cask "visual-studio-code"
 cask "iterm2"
