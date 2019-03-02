@@ -143,7 +143,7 @@ brew "libyaml" # should come after openssl
 brew "coreutils"
 brew "automake"
 brew "autoconf"
-brew "redline"
+brew "readline"
 brew "libxslt"
 brew "libtool"
 brew "unixodbc"
