@@ -147,6 +147,7 @@ brew "readline"
 brew "libxslt"
 brew "libtool"
 brew "unixodbc"
+brew "zlib"
 brew "yarn"
 brew "shellcheck"
 cask "gpg-suite"
@@ -217,6 +218,8 @@ install_asdf_language "elixir"
 
 fancy_echo "Installing Python ..."
 install_asdf_language "python"
+append_to_zshrc "export LDFLAGS=\"-L/usr/local/opt/zlib/lib\"" 1
+append_to_zshrc "export CPPFLAGS=\"-I/usr/local/opt/zlib/include\"" 1
 
 
 if [ -f "$HOME/.laptop.local" ]; then
